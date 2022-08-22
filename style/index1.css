@@ -92,12 +92,10 @@ header{
 
 
 header .name{
-	padding: 2%;
-	margin: 2%;
+	padding: 3%;
 	font-size: 1.8rem;
 	font-family: 'Reem Kufi', sans-serif;
-	margin-top: 0;
-	margin-left: 10%;
+	margin-left: 3%;
 	color: white;
 
 }
@@ -114,10 +112,12 @@ header .name{
 
 	color: white;
 
-justify-content: space-around;
-border-bottom: 2px solid black;
+	justify-content: space-around;
+	border-bottom: 2px solid black;
 
-gap: 3rem;
+	gap: 3rem;
+
+
 
 }
 
@@ -239,3 +239,73 @@ width: 70%;
 	font-size: 1rem;
 
 }
+
+
+
+
+
+
+@media(max-width: 500px) {
+
+
+.Summary{
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+header .name{
+	
+	display: none;
+
+}	
+
+
+.nav a{
+
+font-size: 180%;
+	
+}
+
+.highlights{
+
+	display: flex;
+
+	margin: 0%;
+
+}
+
+
+
+img.highlight{
+
+
+width: 60%;
+
+
+
+}
+
+
+
+
+  }
+
+
+
+
+
+
+
+  
+@media(max-width: 850px) {
+
+
+
+
+
+
+}
+
+
+
